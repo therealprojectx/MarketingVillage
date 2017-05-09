@@ -1,13 +1,16 @@
 # MarketingVillage
 Sitecore 8.2 + Helix + Common Extensions and Patterns
 
-Prerequisites:
+Prerequisites:\r\n
 Sitecore Instance Manager (SIM) Sitecore v8.2 
 https://marketplace.sitecore.net/en/Modules/Sitecore_Instance_Manager.aspx
+
 Npm Installation on root source folder
 https://nodejs.org/en/
+
 Team Development for Sitecore (TDS) 
 https://www.teamdevelopmentforsitecore.com/
+
 Integrated Dynamic Placeholders (can be found in the Sitecore MarketPlace)
 https://marketplace.sitecore.net/en/Modules/Integrated_Dynamic_Placeholders.aspx
 
