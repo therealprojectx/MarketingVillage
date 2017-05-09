@@ -1,17 +1,18 @@
 # MarketingVillage
 Sitecore 8.2 + Helix + Common Extensions and Patterns
 
-Prerequisites:\r\n
-Sitecore Instance Manager (SIM) Sitecore v8.2 
+Prerequisites:
+
+-Sitecore Instance Manager (SIM) Sitecore v8.2 
 https://marketplace.sitecore.net/en/Modules/Sitecore_Instance_Manager.aspx
 
-Npm Installation on root source folder
+-Npm Installation on root source folder
 https://nodejs.org/en/
 
-Team Development for Sitecore (TDS) 
+-Team Development for Sitecore (TDS) 
 https://www.teamdevelopmentforsitecore.com/
 
-Integrated Dynamic Placeholders (can be found in the Sitecore MarketPlace)
+-Integrated Dynamic Placeholders (can be found in the Sitecore MarketPlace)
 https://marketplace.sitecore.net/en/Modules/Integrated_Dynamic_Placeholders.aspx
 
 FYI:
@@ -20,6 +21,7 @@ will be configured in Configuration Manager to not Build or Deploy (see blog for
 
 
 Design:
+
 All components and renderings are based on the free bootstrap template
 Modern Business
 https://startbootstrap.com/template-overviews/modern-business/
