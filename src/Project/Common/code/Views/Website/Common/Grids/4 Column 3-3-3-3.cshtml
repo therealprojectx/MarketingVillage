@@ -1,0 +1,17 @@
+﻿@using Sitecore
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<div class="row">
+    <div class="col-sm-3">
+        @Html.Sitecore().DynamicPlaceholder("pos1-col-3-wide")
+    </div>
+    <div class="col-sm-3">
+        @Html.Sitecore().DynamicPlaceholder("pos2-col-3-wide")
+    </div>
+    <div class="col-sm-3">
+        @Html.Sitecore().DynamicPlaceholder("pos3-col-3-wide")
+    </div>
+    <div class="col-sm-3">
+        @Html.Sitecore().DynamicPlaceholder("pos4-col-3-wide")
+    </div>
+</div>
