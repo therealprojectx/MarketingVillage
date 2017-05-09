@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		nuget.config = nuget.config
 		package.json = package.json
 		publishsettings.targets = publishsettings.targets
+		README.md = README.md
 		WebEssentials2015-Settings.json = WebEssentials2015-Settings.json
 		src\Project\MarketingVillage\code\App_Config\Include\Project\z.MarketingVillage.DevSettings.config = src\Project\MarketingVillage\code\App_Config\Include\Project\z.MarketingVillage.DevSettings.config
 	EndProjectSection
