@@ -2,7 +2,6 @@
 Sitecore 8.2 + Helix + Common Extensions and Patterns
 
 Prerequisites:
-
 -Sitecore Instance Manager (SIM) Sitecore v8.2 
 https://marketplace.sitecore.net/en/Modules/Sitecore_Instance_Manager.aspx
 
@@ -21,7 +20,6 @@ will be configured in Configuration Manager to not Build or Deploy (see blog for
 
 
 Design:
-
 All components and renderings are based on the free bootstrap template
 Modern Business
 https://startbootstrap.com/template-overviews/modern-business/
