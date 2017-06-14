@@ -31,15 +31,17 @@
 </head>
 <body>
     <!-- Navigation -->
-    @Html.Sitecore().Placeholder("navigation bar")
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        @Html.Sitecore().Placeholder("navigation bar")
+    </nav>
     <!-- Page Content -->
-<div class="container">
-    @Html.Sitecore().Placeholder("main")
-    <!-- Footer -->
-    <footer>
-        @Html.Sitecore().Placeholder("page footer")
-    </footer>
-</div>
+    <div class="container">
+        @Html.Sitecore().Placeholder("main")
+        <!-- Footer -->
+        <footer>
+            @Html.Sitecore().Placeholder("page footer")
+        </footer>
+    </div>
     <!-- /.container -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
