@@ -71,6 +71,14 @@ Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MarketingVillage.Common.Web
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MarketingVillage.Website.Master", "src\Project\MarketingVillage\tds\MarketingVillage.Website.Master\MarketingVillage.Website.Master.scproj", "{D0305C28-C51A-4778-A4F4-A4B5FD59DE9A}"
 EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MarketingVillage.Feature.Card.Master", "src\Feature\Card Component\tds\MarketingVillage.Feature.Card.Master\MarketingVillage.Feature.Card.Master.scproj", "{16CB05E2-55AD-4730-AEFE-0F246A177A88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreExtensions", "SitecoreExtensions", "{6EBA4072-11F7-4B09-8D74-E35F1C6F0E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingVillage.Foundation.SitecoreExtensions", "src\Foundation\SitecoreExtensions\code\code\MarketingVillage.Foundation.SitecoreExtensions.csproj", "{25EB85BB-DDA7-4F86-9FA8-A4552BE477B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jumbotron Components", "Jumbotron Components", "{377C96CA-3108-4D06-9A69-C59A3ECFD3A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +129,14 @@ Global
 		{D0305C28-C51A-4778-A4F4-A4B5FD59DE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0305C28-C51A-4778-A4F4-A4B5FD59DE9A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D0305C28-C51A-4778-A4F4-A4B5FD59DE9A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{16CB05E2-55AD-4730-AEFE-0F246A177A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CB05E2-55AD-4730-AEFE-0F246A177A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CB05E2-55AD-4730-AEFE-0F246A177A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16CB05E2-55AD-4730-AEFE-0F246A177A88}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{25EB85BB-DDA7-4F86-9FA8-A4552BE477B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25EB85BB-DDA7-4F86-9FA8-A4552BE477B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25EB85BB-DDA7-4F86-9FA8-A4552BE477B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25EB85BB-DDA7-4F86-9FA8-A4552BE477B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +166,10 @@ Global
 		{00C1D548-2B2F-4FEA-B53F-067CCAEEF9FB} = {6135AC4C-3991-4CDE-B713-AEB7F5CA1AA1}
 		{DF7A3926-AE7D-4196-BEE9-C6BBA8EB1DB2} = {6135AC4C-3991-4CDE-B713-AEB7F5CA1AA1}
 		{D0305C28-C51A-4778-A4F4-A4B5FD59DE9A} = {258A3B43-0ADB-48F2-A019-85387F39C5C6}
+		{16CB05E2-55AD-4730-AEFE-0F246A177A88} = {8FCB5475-0E20-46F6-A7F7-F35513B4E567}
+		{6EBA4072-11F7-4B09-8D74-E35F1C6F0E96} = {C41185AC-F33B-4C80-AEB0-79DE1F6FDBC3}
+		{25EB85BB-DDA7-4F86-9FA8-A4552BE477B3} = {6EBA4072-11F7-4B09-8D74-E35F1C6F0E96}
+		{377C96CA-3108-4D06-9A69-C59A3ECFD3A7} = {DFA3F23C-9C7B-407A-BFD9-C3F01D0D60DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		VisualSVNWorkingCopyRoot = .

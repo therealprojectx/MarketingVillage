@@ -44,6 +44,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Glass.Mapper, Version=4.3.4.197, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Glass.Mapper.Sc.Core.4.3.4.197\lib\net45\Glass.Mapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Glass.Mapper.Sc">
+      <HintPath>..\..\..\..\packages\Glass.Mapper.Sc.Core.4.3.4.197\lib\100\Glass.Mapper.Sc.dll</HintPath>
+    </Reference>
+    <Reference Include="Glass.Mapper.Sc.Mvc">
+      <HintPath>..\..\..\..\packages\Glass.Mapper.Sc.Core.4.3.4.197\lib\Mvc52\Glass.Mapper.Sc.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
       <Private>True</Private>
@@ -231,6 +245,7 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Card.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -246,9 +261,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Config\" />
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\ContentRepository\code\MarketingVillage.Foundation.ContentRepository.csproj">
+      <Project>{7cd8076a-a8dd-429d-9b3f-e4a1a3fd99c3}</Project>
+      <Name>MarketingVillage.Foundation.ContentRepository</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

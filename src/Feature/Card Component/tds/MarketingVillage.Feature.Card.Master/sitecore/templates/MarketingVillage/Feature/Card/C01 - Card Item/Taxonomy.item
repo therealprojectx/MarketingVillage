@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {735A1488-7AC4-4823-918B-E76479FF33C2}
+database: master
+path: /sitecore/templates/MarketingVillage/Feature/Card/C01 - Card Item/Taxonomy
+parent: {E3E5A2A0-6E90-4D14-B4EF-1F1D3193DA4D}
+name: Taxonomy
+master: {00000000-0000-0000-0000-000000000000}
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
+created: 20170612T170752Z
+
+----version----
+language: en
+version: 1
+revision: 9df0a8ac-64bf-41d3-b0f4-75550d17d8f3
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170612T170752Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9df0a8ac-64bf-41d3-b0f4-75550d17d8f3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170612T171418Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

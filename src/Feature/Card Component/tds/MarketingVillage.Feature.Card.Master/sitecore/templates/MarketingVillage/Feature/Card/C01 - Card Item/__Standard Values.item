@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {3C3D6194-181C-4D3F-84DF-43A33DC81F65}
+database: master
+path: /sitecore/templates/MarketingVillage/Feature/Card/C01 - Card Item/__Standard Values
+parent: {E3E5A2A0-6E90-4D14-B4EF-1F1D3193DA4D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {E3E5A2A0-6E90-4D14-B4EF-1F1D3193DA4D}
+templatekey: C01 - Card Item
+created: 20170612T170812Z
+
+----version----
+language: en
+version: 1
+revision: 3edbf08a-8fec-4442-b003-ec82d906f1dd
+
+----field----
+field: {E08E61C4-F78E-48CE-AA57-0DEFA4406FC5}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170612T170812Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3edbf08a-8fec-4442-b003-ec82d906f1dd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170612T170827Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

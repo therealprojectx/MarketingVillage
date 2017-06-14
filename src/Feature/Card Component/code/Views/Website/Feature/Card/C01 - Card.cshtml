@@ -1,13 +1,19 @@
-﻿@using Sitecore.Mvc
+﻿@using MarketingVillage.Feature.Card.Models
+@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
-@model RenderingModel
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<C01___Card_Item>
 @{
-
+    var parameters = GetRenderingParameters<C01___Card>();
 }
-<div class="card">
-    <img class="card-img-top" src="images/263x170.jpg" alt="">
-    <div class="card-block">
-        <h3 class="card-title">Card Title </h3>
-        <p class="card-text">Vestibulum ac fringilla ligula. Nam volutpat  est non scelerisque. </p>
+
+<div class="panel panel-default text-center">
+    <div class="panel-heading">
+        @*<img class="card-img-top" src="images/263x170.jpg" alt="">*@
+        @RenderImage(Model, x => x.Image, isEditable: true)
+    </div>
+    <div class="panel-body">
+        <h4>@Editable(Model, x => x.Title)</h4>
+        <p>@Editable(Model, x => x.Description)</p>
+        <a href="#" class="btn btn-primary">@Editable(Model, x => x.Button_Title)</a>
     </div>
 </div>
