@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {A966B149-B75C-4AF9-9EBD-2DD94734587B}
+database: master
+path: /sitecore/content/Global/US/Website
+parent: {1FF2C3A8-06A8-43F4-9C57-471E0F7CD19E}
+name: Website
+master: {6AF088E1-3CF1-4583-8EBE-30A461EB65D7}
+template: {EEFA3669-7370-42E2-A3C9-8060315C05CB}
+templatekey: Home
+created: 20170612T195807Z
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{D9815D8E-4B91-41EC-B880-6DA1A0146E1E}
+----version----
+language: en
+version: 1
+revision: 433e8677-6df6-4780-82f8-a2ff8d10ef23
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 893
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{AECACCD6-D776-42C4-941A-76FA83533377}" p:before="*" s:ds="{71BBE71D-11CD-4C91-A29D-5EE20229C4C2}" s:id="{A7A0ED63-BDAC-45C6-9B51-8835B60A67FD}" s:par="Image Is Clickable&amp;Title Is Clickable&amp;C01 Goals&amp;C01 Events&amp;C01 Outcome" s:ph="/main/pos2-col-6-wide_b7d083d6-69d2-4798-b06c-a539704a8657" /><r uid="{EF29D169-4DBE-439B-A372-ED9FBD69D69A}" p:after="r[@uid='{AECACCD6-D776-42C4-941A-76FA83533377}']" s:ds="{7C4517BD-A6FC-4E3B-9DED-85F42E82ADDA}" s:id="{A7A0ED63-BDAC-45C6-9B51-8835B60A67FD}" s:par="Image Is Clickable&amp;Title Is Clickable&amp;C01 Goals&amp;C01 Events&amp;C01 Outcome" s:ph="/main/pos1-col-6-wide_b7d083d6-69d2-4798-b06c-a539704a8657" /><r uid="{B7D083D6-69D2-4798-B06C-A539704A8657}" p:after="*[1=2]" s:id="{DA37D09D-C610-4F75-A46F-D7338EA46272}" s:ph="main" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170612T195807Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+433e8677-6df6-4780-82f8-a2ff8d10ef23
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170614T075804Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

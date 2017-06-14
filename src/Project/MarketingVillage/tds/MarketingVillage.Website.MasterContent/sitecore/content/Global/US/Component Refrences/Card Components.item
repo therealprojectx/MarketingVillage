@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {BD5F0787-2C6E-4A45-9DD4-05E937FD5CB1}
+database: master
+path: /sitecore/content/Global/US/Component Refrences/Card Components
+parent: {3A7212D3-6900-4217-9858-5A3387D48047}
+name: Card Components
+master: {6AF088E1-3CF1-4583-8EBE-30A461EB65D7}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+created: 20170612T195807Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 34
+
+Applications/16x16/folder_gear.png
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{4D0F22DF-04D7-47E9-A4A9-666B8F2EF2FB}
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{E3E5A2A0-6E90-4D14-B4EF-1F1D3193DA4D}
+----version----
+language: en
+version: 1
+revision: 98dfa2fa-b059-48d2-89d5-2680157dd8a3
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170612T195807Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+98dfa2fa-b059-48d2-89d5-2680157dd8a3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170613T040742Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

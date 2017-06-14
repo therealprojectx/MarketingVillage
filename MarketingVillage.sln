@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketingVillage.Foundation
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jumbotron Components", "Jumbotron Components", "{377C96CA-3108-4D06-9A69-C59A3ECFD3A7}"
 EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MarketingVillage.Website.MasterContent", "src\Project\MarketingVillage\tds\MarketingVillage.Website.MasterContent\MarketingVillage.Website.MasterContent.scproj", "{74424C02-95BD-4DEF-8A05-9087177F2278}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,12 @@ Global
 		{25EB85BB-DDA7-4F86-9FA8-A4552BE477B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25EB85BB-DDA7-4F86-9FA8-A4552BE477B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25EB85BB-DDA7-4F86-9FA8-A4552BE477B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74424C02-95BD-4DEF-8A05-9087177F2278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74424C02-95BD-4DEF-8A05-9087177F2278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74424C02-95BD-4DEF-8A05-9087177F2278}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{74424C02-95BD-4DEF-8A05-9087177F2278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74424C02-95BD-4DEF-8A05-9087177F2278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74424C02-95BD-4DEF-8A05-9087177F2278}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -170,6 +178,7 @@ Global
 		{6EBA4072-11F7-4B09-8D74-E35F1C6F0E96} = {C41185AC-F33B-4C80-AEB0-79DE1F6FDBC3}
 		{25EB85BB-DDA7-4F86-9FA8-A4552BE477B3} = {6EBA4072-11F7-4B09-8D74-E35F1C6F0E96}
 		{377C96CA-3108-4D06-9A69-C59A3ECFD3A7} = {DFA3F23C-9C7B-407A-BFD9-C3F01D0D60DD}
+		{74424C02-95BD-4DEF-8A05-9087177F2278} = {258A3B43-0ADB-48F2-A019-85387F39C5C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		VisualSVNWorkingCopyRoot = .

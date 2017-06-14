@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {71BBE71D-11CD-4C91-A29D-5EE20229C4C2}
+database: master
+path: /sitecore/content/Global/US/Component Refrences/Card Components/Product Teaser B
+parent: {BD5F0787-2C6E-4A45-9DD4-05E937FD5CB1}
+name: Product Teaser B
+master: {00000000-0000-0000-0000-000000000000}
+template: {E3E5A2A0-6E90-4D14-B4EF-1F1D3193DA4D}
+templatekey: C01 - Card Item
+created: 20170614T063811Z
+
+----version----
+language: en
+version: 1
+revision: 382559c4-7d53-4193-b20e-551a46b4f875
+
+----field----
+field: {E08E61C4-F78E-48CE-AA57-0DEFA4406FC5}
+name: Title
+key: title
+content-length: 16
+
+Product Teaser B
+----field----
+field: {7F8CE4B7-3421-4FE2-B86A-C1A361D8FC9B}
+name: Description
+key: description
+content-length: 106
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.
+----field----
+field: {CD799758-E3B0-4A9A-9CB1-C2DE6370388D}
+name: Button Title
+key: button title
+content-length: 10
+
+Learn More
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170613T074708Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+382559c4-7d53-4193-b20e-551a46b4f875
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170614T075854Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {48899E56-9BBC-4342-A253-5A50F516A759}
+database: master
+path: /sitecore/content/Global/US/Website/Products Series One
+parent: {A966B149-B75C-4AF9-9EBD-2DD94734587B}
+name: Products Series One
+master: {00000000-0000-0000-0000-000000000000}
+template: {7C6F9D98-333C-4C08-BC14-802C51716EC0}
+templatekey: Landing Page
+created: 20170613T074829Z
+
+----version----
+language: en
+version: 1
+revision: eaceb0e3-2be5-4df0-9502-d96069d00367
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170613T074829Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eaceb0e3-2be5-4df0-9502-d96069d00367
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170613T074829Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
